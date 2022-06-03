@@ -1,0 +1,14 @@
+name: "Terraform Executa Modulo"
+
+on:
+  push:
+    branches:
+      - main
+  
+jobs:
+  terraform:
+    uses: "kelvinshammai/cicd_centralizado/.github/workflows/terraform_executa_modulo.yaml@feat/adiciona-workflow-reutilizavel-terraform"
+    with:
+      tf_workspace: "default"
+    secrets:
+      token: $ {{ secrets.TOKEN }}
