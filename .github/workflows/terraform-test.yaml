@@ -10,5 +10,4 @@ jobs:
     uses: "kelvinshammai/cicd_centralizado/.github/workflows/terraform_executa_modulo_aws.yaml@feat/adiciona-workflow-reutilizavel-terraform-aws"
     with:
       tf_workspace: "default"
-    secrets:
-      token: $ {{ secrets.TOKEN }}
+    secrets: inherit
