@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "shammai-tf-backend"
-    key    = "global/s3/terraform.tfstate"
+    bucket = "shammai-terraform-backend"
+    key    = "terraform.tfstate"
     region = "us-east-1"
   }
 }
