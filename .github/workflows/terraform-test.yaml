@@ -7,7 +7,7 @@ on:
   
 jobs:
   terraform:
-    uses: kelvinshammai/cicd_centralizado/.github/workflows/terraform_executa_modulo_aws.yaml@cicdcentralizado
+    uses: mentoriaiac/cicd_centralizado/.github/workflows/terraform_executa_modulo_aws.yaml@main
     with:
       run_apply: true
       run_plan: true
