@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "shammai-terraform-backend"
+    bucket = "shammai-terraform-mentoria-iac"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
