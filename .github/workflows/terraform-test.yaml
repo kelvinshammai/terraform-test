@@ -12,3 +12,4 @@ jobs:
       run_apply: true
       run_plan: true
       tf_workspace: "default"
+    secrets: inherit
