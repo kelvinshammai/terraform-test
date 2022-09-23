@@ -1,0 +1,12 @@
+name: "Terraform Executa Modulo"
+
+on:
+  push:
+    tags:
+      - v*
+  
+jobs:
+  teste:
+    - name: echo
+      run: echo "teste"
+     
