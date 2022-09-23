@@ -1,4 +1,4 @@
-name: "Terraform Executa Modulo"
+name: "teste"
 
 on:
   push:
@@ -6,7 +6,11 @@ on:
       - v*
   
 jobs:
-  teste:
-    - name: echo
-      run: echo "teste"
-     
+  jobs_terraform:
+    name: Terraform workflow
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: teste
+        run: echo teste
+  
